@@ -25,4 +25,5 @@ module.exports = {
     port: 5000,
     historyApiFallback: true,
   },
+  devtool: 'eval',
 };
