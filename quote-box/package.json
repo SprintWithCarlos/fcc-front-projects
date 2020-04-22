@@ -1,0 +1,68 @@
+{
+  "name": "front",
+  "author": "Carlos Marchena",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --open",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-react": "^7.9.4",
+    "@babel/preset-typescript": "^7.9.0",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.1.0",
+    "babel-node": "^0.0.1-security",
+    "g": "^2.0.1",
+    "i18next": "^19.3.4",
+    "node-fetch": "^2.6.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-error-boundary": "^1.2.5",
+    "react-i18next": "^11.3.4",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.1.2",
+    "redux": "^4.0.5",
+    "styled-components": "^4.4.1",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.6",
+    "@types/react-redux": "^7.1.7",
+    "@types/react-router-dom": "^5.1.4",
+    "@types/redux": "^3.6.0",
+    "@types/typescript": "^2.0.0",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.5.1",
+    "jest": "^25.3.0",
+    "ts-jest": "^25.2.1"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "jest": {
+    "modulePathIgnorePatterns": [
+      "package.json"
+    ],
+    "testEnvironment": "node",
+    "coveragePathIgnorePatters": [
+      "/node_modules"
+    ],
+    "preset": "ts-jest"
+  }
+}
